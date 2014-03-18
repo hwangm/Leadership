@@ -274,22 +274,26 @@ a:focus {
     margin-top: 100px;
 }
 
+#teamworkrow{
+padding-top: 50px;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 0px;
     }
 
     .design-section {
-        padding-top: 100px;
+        padding-top: 70px;
 		padding-bottom: 0px;
     }
 	
 	.about-section {
-		padding-top: 75px;
+		padding-top: 60px;
 	}
 	
 	.future-section {
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 	
     #map {
