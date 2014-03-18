@@ -280,7 +280,8 @@ a:focus {
     }
 
     .design-section {
-        padding: 100px 0;
+        padding-top: 100px;
+		padding-bottom: 0px;
     }
 	
 	.about-section {
@@ -288,7 +289,7 @@ a:focus {
 	}
 	
 	.future-section {
-		padding-top: 1135px;
+		padding-top: 150px;
 	}
 	
     #map {
