@@ -282,7 +282,15 @@ a:focus {
     .design-section {
         padding: 100px 0;
     }
-
+	
+	.about-section {
+		padding-top: 75px;
+	}
+	
+	.future-section {
+		padding-top: 1500px;
+	}
+	
     #map {
         height: 400px;
         margin-top: 250px;
