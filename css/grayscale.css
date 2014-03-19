@@ -34,6 +34,8 @@ h5 {
 
 p {
     margin: 0 0 25px;
+    /* changed font from yucky looking one */
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -47,7 +49,7 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    color: #28b4c3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -255,6 +257,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .design-section {
@@ -274,31 +277,18 @@ a:focus {
     margin-top: 100px;
 }
 
-#teamworkrow{
-padding-top: 50px;
-}
-
 @media(min-width:767px) {
     .content-section {
-        padding-top: 0px;
+        padding-top: 100px;
     }
 
     .design-section {
-        padding-top: 70px;
-		padding-bottom: 0px;
+        padding: 50px 0;
     }
-	
-	.about-section {
-		padding-top: 60px;
-	}
-	
-	.future-section {
-		padding-top: 100px;
-	}
-	
+
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 50px;
     }
 }
 
